@@ -26,7 +26,7 @@ jobs:
         name: Download File
         with:
           url: "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-          target: public/
+          target: ./
 
       # Runs a single command using the runners shell
       #- name: Run a one-line script
