@@ -1,7 +1,7 @@
 name: DownloadEveryDay
   on: 
-    schedule:
-    - cron: "0 0 * * *"
+    workflow_dispatch
+    
 
 - uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
   with:
