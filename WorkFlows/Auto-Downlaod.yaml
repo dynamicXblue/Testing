@@ -1,0 +1,11 @@
+name: DownloadEveryDay
+  on: 
+    schedule:
+    - cron: "0 0 * * *"
+
+- uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9
+  with:
+    url: "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+    target: 
+
+
